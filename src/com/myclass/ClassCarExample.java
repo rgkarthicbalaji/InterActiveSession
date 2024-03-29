@@ -2,11 +2,13 @@ package com.myclass;
 
 public class ClassCarExample {
 
+    // Class contains properties and behaviours
+
     // Single line Comment
     /* Multiline Comment */
 
-    /*(Constants and Variables) or property
-    Methods or Behaviour*/
+    /* Properties are called Constants or Variables programmatically
+    Behaviour are called Methods programmatically */
 
     /*Behaviour has two fundamental things set and get
     By setting behaviour we are defining the property - which is achieved through setter methods
