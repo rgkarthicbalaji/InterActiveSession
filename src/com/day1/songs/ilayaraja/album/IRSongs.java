@@ -1,4 +1,4 @@
-package com.ilayaraja.album.songs;
+package com.day1.songs.ilayaraja.album;
 
 public class IRSongs {
     public static void main(String[] args) {

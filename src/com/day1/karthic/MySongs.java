@@ -1,6 +1,6 @@
-package com.karthic;
+package com.day1.karthic;
 
-import com.ilayaraja.album.songs.IRSongs;
+import com.day1.songs.ilayaraja.album.IRSongs;
 
 public class MySongs {
     public static void main(String[] args) {

@@ -1,7 +1,5 @@
-package com.num;
+package com.day1.num;
 
-import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class NumericEx {
