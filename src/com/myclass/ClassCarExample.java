@@ -15,6 +15,8 @@ public class ClassCarExample {
     By getting behaviour we are accessing the property - which is achieved through getter methods
     */
     final int totalGear = 6;
+
+    //currentGear is the property taken as an example, which is used here for explaining intricacies of a Behaviour
     int currentGear = 0;
 
     void setCurrentGearPosition(int gearPosition){
