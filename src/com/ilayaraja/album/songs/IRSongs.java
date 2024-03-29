@@ -31,9 +31,11 @@ public class IRSongs {
         //int result = squreRoot(floatVal);
 
         //System.out.println(result);
+        IRSongs irSongs = new IRSongs();
+        System.out.println(irSongs.pitch(5));
     }
 
-    public float pitch(Float i) {
+    public float pitch(int i) {
         /*if (i instanceof Integer){
             i = i+10;
         }*/
