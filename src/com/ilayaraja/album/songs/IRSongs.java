@@ -7,7 +7,7 @@ public class IRSongs {
         double doubleVal = 1.0;
         String s = new String("MyName");
 
-        //This is how object for Integer is created till JDK6
+        //This is how object for Integer is created from JDK5
         Integer intOldWay = new Integer(10);
         //System.out.print(intOldWay.intValue());
 
