@@ -39,7 +39,7 @@ public class ClassCarExample {
 
         System.out.println("Current Gear position of ObjectCar after narrowing is " + classCarExCastedFromObj.getCurrentGearPosition());
 
-        //Wideing again
+        //Widening again
         Object yes = classCarExCastedFromObj;
 
         ((ClassCarExample) ObjectCar).setCurrentGearPosition(1);
