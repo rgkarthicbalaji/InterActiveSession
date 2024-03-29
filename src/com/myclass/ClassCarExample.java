@@ -10,7 +10,7 @@ public class ClassCarExample {
     /* Properties are called Constants or Variables programmatically
     Behaviour are called Methods programmatically */
 
-    /*Behaviour has two fundamental things set and get
+    /*Behaviour has two fundamental things setter and getter
     By setting behaviour we are defining the property - which is achieved through setter methods
     By getting behaviour we are accessing the property - which is achieved through getter methods
     */
