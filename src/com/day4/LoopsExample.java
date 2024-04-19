@@ -1,5 +1,9 @@
 package com.day4;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class LoopsExample {
     public static void main(String[] args) {
         /*
@@ -17,6 +21,7 @@ public class LoopsExample {
         ..
         ..
         10*1 = 10
+        11*-1 = -11
          */
         //int num=1,tableToMultipy=10;
         for(int num=1,tableToMultipy=10; num<=12; num++,tableToMultipy--){
@@ -43,8 +48,8 @@ public class LoopsExample {
         int tableToMultipy = 10;
         while(num<=12){
             System.out.println(num*tableToMultipy);
-            /* Let loop continue - until it meets a criteria or condition
-            if(bankTransferEvent.onTransferSuccessful()) {
+             //Let loop continue - until it meets a criteria or condition
+            /*if(bankTransferEvent.onTransferSuccessful()) {
                 break;
             }*/
 
@@ -60,11 +65,35 @@ public class LoopsExample {
 
                 System.out.println();
             }
-
-
-
-
-
         }
+
+        int numDoWhile=1;
+        int tableToMultipyDoWhile = 10;
+        do{
+            System.out.println("Value of num: "+numDoWhile);
+            System.out.println("Value of tableToMultipy: "+tableToMultipyDoWhile);
+            System.out.println(numDoWhile+"*"+tableToMultipyDoWhile+"="+numDoWhile*tableToMultipyDoWhile);
+            numDoWhile++;
+            tableToMultipyDoWhile--;
+        }while(numDoWhile<11);
+
+
+    //Enhanced for loop is introduced in JDK7 used to itererate Array or Collections, it takes care of conditional check and increment
+    String[] strArray = {"d","c","b","a"};
+
+        for (String str:strArray) {
+            System.out.println(str);
+        }
+
+        //ForEach loop - Introduced in JDK8 can be accessed using Stream interface(which is also introduced in JDK8), Stream is available to the instances of Collections
+        String[] forEachStrArray = {"abc","bcd","cde","def"};
+        Arrays.stream(forEachStrArray).forEach(System.out::println);
+
+        List myNumlist = new ArrayList<Integer>();
+        myNumlist.add(100);
+        myNumlist.add(101);
+        myNumlist.stream().forEach(System.out::println);
+
+
     }
 }
