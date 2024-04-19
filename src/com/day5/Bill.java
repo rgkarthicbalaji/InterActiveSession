@@ -4,17 +4,26 @@ package com.day5;
 which can have full 1. abstract methods or 2. combination of implemented and abstract methods or 3. fully implemented methods*/
 public abstract class Bill {
 
-    int billAmount = 0;
-    boolean isDiscountAvailable = false;
-    public int getBill(){
-        return billAmount;
-    }
+    /*Bill(int billAmount, int discount){
+        this.billAmount = billAmount;
+        this.discount = discount;
+    }*/
 
-    public void setBill(int billAmount){
+    int billAmount = 0;
+
+    int discount = 0;
+
+    public void setBillAmount(int billAmount){
         this.billAmount = billAmount;
     }
+    public int getBillAmount(){
+        return this.billAmount - ((this.billAmount*this.discount)/100);
+    }
 
-    public abstract void setDiscount();
+    public void setDiscount(int discount){
+        this.discount = discount;
+    }
+
     public abstract int getDiscount();
 
 
