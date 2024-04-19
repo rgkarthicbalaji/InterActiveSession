@@ -11,20 +11,14 @@ public abstract class Bill {
 
     int billAmount = 0;
 
-    int discount = 0;
-
     public void setBillAmount(int billAmount){
         this.billAmount = billAmount;
     }
     public int getBillAmount(){
-        return this.billAmount - ((this.billAmount*this.discount)/100);
+        return this.billAmount;
     }
 
-    public void setDiscount(int discount){
-        this.discount = discount;
-    }
-
-    public abstract int getDiscount();
+    public abstract int calculateDiscount();
 
 
 }
