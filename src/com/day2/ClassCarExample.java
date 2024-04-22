@@ -1,4 +1,4 @@
-package com.day2.classExample;
+package com.day2;
 
 public class ClassCarExample {
 
